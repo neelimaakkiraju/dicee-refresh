@@ -11,7 +11,7 @@ if (RandomNumber > RandomNumber2){
 }
 else if (RandomNumber2 > RandomNumber){
     document.querySelector("h2").textContent = "PLAYER 2 WINS";
-    document.querySelector("h2").style.color = "violet"
+    document.querySelector("h2").style.color = "orange"
 }
 else {
     document.querySelector("h2").textContent  = "DRAWN";
